@@ -1,0 +1,102 @@
+body{
+    background: url('../assets/background.png')no-repeat center fixed;
+    background-size: cover ;
+    
+    
+}
+
+
+.form-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 320px;
+    height: 550px;
+    margin: 0 0 90px;
+    padding: 60px 68px 40px;
+}
+#username, #password,#cpass{
+    width: 280px;
+    height: 30px;
+    padding: 16px 20px 0px;
+    margin: 8px;
+    margin-left: -5px;
+    color: #8c8c8c;
+    letter-spacing: 1px;
+    font-size: 15px; 
+    border-bottom: 1.5px solid #614d70;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    background: transparent;
+
+}
+form{
+    margin-top: 50px;
+}
+h1{
+    color: #614d70;
+    text-align: center;
+    border-bottom: 3px solid #ef1e06;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    letter-spacing: 1px;
+    width: 150px;
+    margin-left: 75px;
+}
+#btn-submit{
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 24px 0px 12px;
+    width: 318px;
+    height: 47.98px;
+    margin-left: -3px;
+    text-align: center;
+    border: none;
+    background: linear-gradient(125deg, #7700ff,#f457c2);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    letter-spacing: 1px;
+    margin-top: 40px;
+}
+#btn-submit:hover{
+    background: linear-gradient(125deg, #f457c2,#7700ff);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+#protect{
+    margin-top: 40px;
+    font-size: 13px;
+    text-decoration: none;
+    color: #7d7c7c;
+    letter-spacing: 1px;
+
+}
+
+#learn{
+    text-decoration: none;
+    color: #0071EB;
+}
+#learn:hover{
+    text-decoration: underline;
+}
+#failed{
+    color: red;
+}
+.alert-error,.alert-success{
+    translate: 710px 470px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+#correct{
+    color: green;
+}
